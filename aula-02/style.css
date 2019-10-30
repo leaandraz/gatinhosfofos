@@ -1,8 +1,9 @@
 #navbar {
-    background-color: aquamarine; 
+    background-color: rgba(84, 207, 207, 0.74); 
 }
 
 header {
+    background-color: rgba(58, 165, 151, 0.294);
     color: black;
 }
 

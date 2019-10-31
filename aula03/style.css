@@ -1,9 +1,27 @@
+#secao {
+    margin: 0 auto;
+    display: flex;
+    background-color: antiquewhite;
+    justify-content: flex-end;
+}
 .nome {
     background-color: brown;
     color: whitesmoke;
+    width: 250px;
+    height: auto;
 }
-
 .sentimento { 
     background-color: aqua;
     color: black;
+    width: 250px;
+    height: auto;
+}
+.imagem1 {
+    width: auto;
+    height: auto;
+}
+
+.img2 {
+    width: 50%;
+    height: 50%;
 }

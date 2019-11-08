@@ -67,9 +67,33 @@
 // ####
 // #####
 
-// let degraus
-// function escadinha (degraus){
-//     if (degraus == degraus){
+// explicação com FOR e spring "" vazia
 
-//     }
+// let material = prompt ("Qual material você quer?");
+// let degraus = Number(prompt("Quantos degraus você quer?"));
+// let escada = "";
+// for (let i = 0; i < degraus; i++){
+//     escada += material;
+//     console.log(escada)
 // }
+
+////////////
+
+// explicação com Array 
+
+let material = prompt("Digite o material");
+let quat_degraus = Number(prompt("Digite quantos degraus quer"));
+let array_degraus = [];
+let valor_indice = "";
+
+for (let i = 0; i < quat_degraus; i++){
+    valor_indice += material;
+    array_degraus.push (valor_indice);
+}
+
+for (let i = 0; i < quat_degraus; i++){
+    console.log(array_degraus[i])
+}
+
+/////////////////
+

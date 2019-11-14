@@ -76,31 +76,31 @@
 
 # print (Palavra())
 
-class Pessoa ():
-    pass
+# class Pessoa ():
+#     pass
 
-    def __init__(self, nome, idade):
-        self.nome = nome
-        self.idade = idade
-    def dados(self):
-        print(pessoa1.nome)
-        print(pessoa1.idade) 
+#     def __init__(self, nome, idade):
+#         self.nome = nome
+#         self.idade = idade
+#     def dados(self):
+#         print(pessoa1.nome)
+#         print(pessoa1.idade) 
 
-pessoa1 = Pessoa ("Leandra", 24)
+# pessoa1 = Pessoa ("Leandra", 24)
 
-pessoa1.dados()
+# pessoa1.dados()
 
-class Pet ():
-    pass
+# class Pet ():
+#     pass
 
-    def __init__(self, nome, idade):
-        self.nome = nome
-        self.idade = idade
+#     def __init__(self, nome, idade):
+#         self.nome = nome
+#         self.idade = idade
 
-    def dadospet (self):
-        print(pet1.nome)
-        print(pet1.idade)
+#     def dadospet (self):
+#         print(pet1.nome)
+#         print(pet1.idade)
 
-pet1 = Pet ("Aquiles", 2)
+# pet1 = Pet ("Aquiles", 2)
 
-pet1.dadospet()
+# pet1.dadospet()

@@ -4,11 +4,14 @@
 {% block content %}
  <h1>PRODUTO</h1>
 
- {% for produto in produtos %}
+ <div class="tabela">
+    {% for produto in produtos %}
+ </div>
 
- <div>
-     <p>{{produto.nome}}</p>
-     <p>{{produto.preco}}</p>
+ <div class="cadastro_produto">
+        <p>{{produto.nome}}</p>
+        <p>{{produto.preco}}</p>
+    <img src="../{{produto.imagem.url}}">
  </div>
 
  {% endfor %}

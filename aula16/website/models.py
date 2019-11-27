@@ -14,7 +14,8 @@ class Produto(models.Model):
     preco = models.DecimalField(decimal_places=2, max_digits=1000, default=50)
     disponivel = models.BooleanField(default=True)
     quantidade = models.IntegerField(default=1)
-    tamanho  = models.CharField(max_length=2, choices=opcoes_tamanho)
+    tamanho = models.CharField(max_length=2, choices=opcoes_tamanho)
+    imagem = models.ImageField(upload_to='', null=True)
 
     def __str__(self):
         return self.nome
